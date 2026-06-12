@@ -1,0 +1,6 @@
+- use nginx docker image
+- create an index.html
+- replace index.html -> /usr/shared.....
+- build our custom image
+- show the logs of the container
+- curl localhost:8080
