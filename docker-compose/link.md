@@ -1,1 +1,1 @@
-https://github.com/shravankhedekar/miniprojects/new/main/docker-compose
+https://github.com/shravankhedekar/miniprojects/tree/main/docker-compose
