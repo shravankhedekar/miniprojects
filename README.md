@@ -1,161 +1,209 @@
 # 🚀 DevOps Mini Projects Collection
 
-A collection of beginner-to-intermediate DevOps projects demonstrating Docker, Kubernetes, Linux Automation, CI/CD, and Containerized Application Deployment.
+A collection of hands-on DevOps projects demonstrating practical skills in Docker, Kubernetes, Terraform, Linux Automation, CI/CD, and Containerized Application Deployment.
+
+This repository is designed for students and beginners who want to gain real-world experience with modern DevOps tools and workflows.
 
 ---
 
-## 📂 Project Index
+# 📂 Project Index
 
-| # | Project                               | Description                                                   | Link                                                 |
-| - | ------------------------------------- | ------------------------------------------------------------- | ---------------------------------------------------- |
-| 1 | Docker Compose Web Server             | Multi-container web deployment using Docker Compose and Nginx | [Open Folder](./docker-compose)                      |
-| 2 | Kubernetes Pod Auto-Healing & Scaling | Kubernetes deployment, self-healing, and replica scaling      | [Open Folder](./kubernetes-pod-scaling)              |
-| 3 | Linux Sysadmin Automation Kit         | Linux administration and automation scripts                   | [Open Folder](./Linux%20Sysadmin%20Automation%20Kit) |
-| 4 | CI Pipeline for Python                | GitHub Actions based automated testing and linting            | [Open Folder](./CI%20Pipeline%20For%20Python)        |
-| 5 | Dockerized Flask To-Do App            | Flask application containerized with Docker                   | [Open Folder](./to-do-app-docker)                    |
+| # | Project Name                          | Technologies                               | Link                                       |
+| - | ------------------------------------- | ------------------------------------------ | ------------------------------------------ |
+| 1 | Docker Compose Web Server             | Docker, Docker Compose, Nginx              | [Open Project](./docker-compose)           |
+| 2 | Kubernetes Pod Auto-Healing & Scaling | Kubernetes, Docker, Nginx                  | [Open Project](./kubernetes-pod-scaling)   |
+| 3 | Linux SysAdmin Automation             | Bash, Linux Utilities, Python              | [Open Project](./linux-syadmin-automation) |
+| 4 | Terraform Hands-On                    | Terraform, Checkov, TFLint, GitHub Actions | [Open Project](./terraform-hands-on)       |
+| 5 | Dockerized Flask To-Do App            | Python Flask, Docker                       | [Open Project](./to-do-app-docker)         |
 
 ---
 
-## 🎯 Project Overview
+# 🎯 Project Overview
 
-This repository contains multiple hands-on DevOps projects designed to help students and beginners understand real-world DevOps tools and workflows.
+This repository contains practical DevOps projects focused on industry-standard tools and workflows.
 
 ### Topics Covered
 
 * Docker Containerization
 * Docker Compose
 * Kubernetes Deployment & Scaling
-* Linux System Administration Automation
+* Infrastructure as Code (Terraform)
+* Linux System Administration
+* Bash Automation
 * GitHub Actions CI/CD
-* Python-based Containerized Applications
+* Python-based Applications
 
 ---
 
-## 📁 Repository Structure
+# 📁 Repository Structure
 
 ```text
 miniprojects/
 │
 ├── README.md
 │
-├── CI Pipeline For Python/
-│
-├── Linux Sysadmin Automation Kit/
-│
 ├── docker-compose/
 │
 ├── kubernetes-pod-scaling/
+│
+├── linux-syadmin-automation/
+│
+├── terraform-hands-on/
 │
 └── to-do-app-docker/
 ```
 
 ---
 
-## 🛠️ Projects Included
+# 🛠️ Projects Included
 
-### 1. CI Pipeline for Python
+## 1️⃣ Docker Compose Web Server
 
-**Objective:** Automate testing and code quality checks.
+### Objective
 
-**Features**
+Deploy and manage a web application using Docker Compose.
 
-* Automated testing using Pytest
-* Static code analysis using Flake8
-* GitHub Actions workflow
-* Continuous Integration pipeline
+### Features
 
-📁 Folder: `CI Pipeline For Python`
-
----
-
-### 2. Linux Sysadmin Automation Kit
-
-**Objective:** Automate routine Linux administration tasks.
-
-**Features**
-
-* Health monitoring
-* Disk usage checks
-* Process monitoring
-* Automated log generation
-
-📁 Folder: `Linux Sysadmin Automation Kit`
-
----
-
-### 3. Docker Compose Web Server
-
-**Objective:** Deploy a static website using Docker Compose.
-
-**Features**
-
-* Nginx web server
+* Multi-container deployment
 * Docker Compose orchestration
+* Nginx web server
 * Volume mounting
-* Port mapping
+* Local development workflow
 
-📁 Folder: `docker-compose`
+### Skills Demonstrated
 
----
-
-### 4. Kubernetes Pod Auto-Healing & Scaling
-
-**Objective:** Demonstrate Kubernetes self-healing and scaling capabilities.
-
-**Features**
-
-* Replica management
-* Automatic pod recreation
-* Kubernetes Services
-* High availability concepts
-
-📁 Folder: `kubernetes-pod-scaling`
+* Docker
+* Docker Compose
+* Container Networking
+* Web Server Deployment
 
 ---
 
-### 5. Dockerized Flask To-Do App
+## 2️⃣ Kubernetes Pod Auto-Healing & Scaling
 
-**Objective:** Containerize a Flask application using Docker.
+### Objective
 
-**Features**
+Demonstrate Kubernetes deployment, scaling, and self-healing capabilities.
 
-* Flask backend
-* Dockerized deployment
-* Dependency management
-* Lightweight container image
+### Features
 
-📁 Folder: `to-do-app-docker`
+* Kubernetes Deployments
+* Replica Management
+* Pod Auto-Recovery
+* Service Exposure
+* High Availability Concepts
+
+### Skills Demonstrated
+
+* Kubernetes
+* Container Orchestration
+* Scaling
+* Self-Healing Infrastructure
 
 ---
 
-## 🚀 Technologies Used
+## 3️⃣ Linux SysAdmin Automation
 
-### Containerization
+### Objective
+
+Automate common Linux administration and monitoring tasks.
+
+### Features
+
+* System Health Monitoring
+* Directory Structure Visualization
+* Bash Automation Scripts
+* Python-based Utilities
+* System Maintenance Tasks
+
+### Skills Demonstrated
+
+* Linux Administration
+* Bash Scripting
+* Process Monitoring
+* Automation
+
+---
+
+## 4️⃣ Terraform Hands-On
+
+### Objective
+
+Learn Infrastructure as Code (IaC) using Terraform.
+
+### Features
+
+* Provider Configuration
+* Variables and Outputs
+* Resource Creation
+* Terraform Validation
+* Security Scanning with Checkov
+* Code Quality Checks using TFLint
+* GitHub Actions Integration
+
+### Skills Demonstrated
+
+* Infrastructure as Code
+* Terraform
+* DevSecOps
+* Infrastructure Automation
+
+---
+
+## 5️⃣ Dockerized Flask To-Do App
+
+### Objective
+
+Build and containerize a Python Flask application.
+
+### Features
+
+* Flask Web Application
+* Dockerized Deployment
+* Dependency Management
+* Lightweight Container Image
+
+### Skills Demonstrated
+
+* Flask Development
+* Docker Containerization
+* Python Backend Development
+
+---
+
+# 🚀 Technologies Used
+
+## Containerization
 
 * Docker
 * Docker Compose
 
-### Container Orchestration
+## Container Orchestration
 
 * Kubernetes
 
-### Automation
+## Infrastructure as Code
+
+* Terraform
+
+## Automation
 
 * Bash Scripting
-* Linux Utilities
+* Python
 
-### CI/CD
+## CI/CD
 
 * GitHub Actions
 
-### Development
+## Security & Quality
 
-* Python
-* Flask
+* Checkov
+* TFLint
 
 ---
 
-## 📚 Learning Outcomes
+# 📚 Learning Outcomes
 
 After completing these projects, you will understand:
 
@@ -164,23 +212,70 @@ After completing these projects, you will understand:
 * Docker Compose Networking
 * Kubernetes Deployments
 * Kubernetes Services
+* Kubernetes Scaling
+* Kubernetes Self-Healing
+* Infrastructure as Code Fundamentals
+* Terraform Workflows
 * Linux Automation
 * Bash Scripting
-* CI/CD Pipelines
-* DevOps Workflows
+* GitHub Actions Pipelines
+* DevOps Best Practices
 
 ---
 
-## 👨‍💻 Author
+# ⚡ Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/shravankhedekar/miniprojects.git
+
+cd miniprojects
+```
+
+### Prerequisites
+
+* Git
+* Docker
+* Docker Compose
+* Python 3.x
+* Kubernetes (Minikube / Kind)
+* Terraform
+
+---
+
+# 🔥 Future Enhancements
+
+* Jenkins Pipelines
+* Helm Charts
+* Prometheus Monitoring
+* Grafana Dashboards
+* AWS Deployments
+* Azure Deployments
+* GitOps using ArgoCD
+
+---
+
+# 👨‍💻 Author
 
 **Shravan Khedekar**
 
 B.Tech Computer Science Engineering
 
-DevOps • Cloud Computing • Linux • Docker • Kubernetes
+DevOps • Cloud Computing • Linux • Docker • Kubernetes • Terraform
 
 GitHub: https://github.com/shravankhedekar
 
 ---
 
-⭐ Star this repository if you found it useful.
+# ⭐ Support
+
+If you found these projects useful:
+
+⭐ Star the repository
+
+🍴 Fork the repository
+
+📢 Share it with fellow learners
+
+Happy Learning and Building! 🚀
